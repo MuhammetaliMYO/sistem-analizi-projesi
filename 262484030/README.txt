@@ -1,27 +1,50 @@
-# Proje Teslimi
+# PROJE TESLİM DOSYASI İÇERİĞİ
 
-Bu ZIP dosyası içerisinde aşağıdaki dosyalar bulunmaktadır:
+Bu teslim dosyası içerisinde aşağıdaki belgeler ve proje bileşenleri bulunmaktadır:
 
-* Proje Sunumu
-* Proje Raporu (Word Belgesi)
+* Proje Sunumu (.pptx)
+* Proje Raporu (.docx / .pdf)
 * Android Studio Kaynak Kodları
+* Uygulamaya ait APK dosyası
+* Uygulamanın tanıtım ve kullanım videosu
 
-## Kaynak Kodların Çalıştırılması
+# KAYNAK KODLARIN ÇALIŞTIRILMASI
 
-1. Android Studio'yu açın.
-2. ZIP dosyasından çıkardığınız proje klasörünü Android Studio ile açın.
-3. Gradle senkronizasyonunun tamamlanmasını bekleyin.(Eğer otomatik gerçekleşmez ise ekranın sağ üst kısmında Sync Project with Gradle Files butonuna basın.)
-4. Projeyi Build/Run ederek uygulamayı çalıştırabilirsiniz.
+1. Android Studio uygulamasını açınız.
+2. Sıkıştırılmış dosyadan çıkardığınız proje klasörünü Android Studio ile açınız.
+3. Gradle senkronizasyonunun tamamlanmasını bekleyiniz.
+4. Senkronizasyon işlemi otomatik olarak başlamazsa, Android Studio üzerinde bulunan **"Sync Project with Gradle Files"** seçeneğini kullanınız.
+5. İnternet hızınıza bağlı olarak Gradle dosyalarının indirilmesi ve senkronizasyon işlemi 1-10 dakika arasında sürebilir.
+6. Senkronizasyon tamamlandıktan sonra projeyi Build/Run ederek çalıştırabilirsiniz.
 
-## Hazır Uygulama (APK)
+# FİZİKSEL ANDROID CİHAZ ÜZERİNDE ÇALIŞTIRMA
 
-Uygulamanın derlenmiş (APK) sürümüne aşağıdaki Google Drive bağlantısından ulaşabilirsiniz:
+Uygulamayı Android Studio üzerinden fiziksel bir Android cihazda çalıştırmak için aşağıdaki adımları uygulayınız:
 
-https://drive.google.com/drive/folders/1XrAHDsUmlKmAvYKO12DTjKis2pS9v12I?usp=sharing
+1. Android telefonunuzu USB veri kablosu ile bilgisayarınıza bağlayınız.
+2. Telefonunuzda **Geliştirici Seçenekleri** menüsünü aktif hale getiriniz.
+3. Geliştirici Seçenekleri içerisinden **USB Hata Ayıklama (USB Debugging)** özelliğini etkinleştiriniz.
+4. Telefonu bilgisayara bağladıktan sonra ekrana gelen **"Bu bilgisayara USB hata ayıklama izni verilsin mi?"** sorusunu onaylayınız.
+5. Android Studio üzerinde cihazınızın algılandığını kontrol ediniz.
+6. Run (▶) butonuna basarak uygulamayı telefon üzerinde çalıştırınız.
 
-APK dosyasını Android cihazınıza indirip kurarak uygulamayı doğrudan deneyebilirsiniz.
+## Geliştirici Seçeneklerini Açma
 
-## Not
+1. Telefonunuzda **Ayarlar** menüsünü açınız.
+2. **Telefon Hakkında** bölümüne giriniz.
+3. **Yapım Numarası (Build Number)** seçeneğine art arda 7 kez dokununuz.
+4. Ekranda "Artık geliştiricisiniz" benzeri bir mesaj görüntülenecektir.
+5. Ayarlar menüsüne geri dönerek **Geliştirici Seçenekleri** bölümünü açınız.
+6. **USB Hata Ayıklama (USB Debugging)** seçeneğini aktif hale getiriniz.
 
-Kurulum sırasında "Bilinmeyen Kaynaklar" veya "Bu Kaynaktan Yüklemeye İzin Ver" uyarısı alırsanız, cihaz ayarlarından ilgili izni etkinleştirerek kuruluma devam edebilirsiniz.
-Uygulamamızın kullandığı database online şekilde yer aldığı için herhangi bir veritabanı kurulumu yapmanız ne mobil tarafta ne de pc tarafında gerekmektedir.
+# APK KURULUMU
+
+APK dosyası Android cihazlara doğrudan kurulabilir.
+APK dosyasını kendi telefonunuza wp üzerinden rahatca gönderebilirsiniz.
+Kurulum sırasında cihazınız "Bilinmeyen Kaynaklar" veya "Bu Kaynaktan Yüklemeye İzin Ver" uyarısı gösterirse, ilgili izni etkinleştirerek kuruluma devam edebilirsiniz.
+
+# VERİTABANI BİLGİSİ
+
+Uygulama çevrimiçi (online) veritabanı altyapısı kullanmaktadır. Bu nedenle uygulamanın çalıştırılması için herhangi bir veritabanı kurulumu veya ek yapılandırma yapılmasına gerek yoktur.
+
+Hem Android cihaz üzerinde APK kurulumu ile hem de Android Studio üzerinden kaynak kodlar kullanılarak uygulama sorunsuz şekilde çalıştırılabilir.
