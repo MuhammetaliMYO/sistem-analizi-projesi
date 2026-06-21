@@ -13,9 +13,10 @@ Bu teslim dosyası içerisinde aşağıdaki belgeler ve proje bileşenleri bulun
 1. Android Studio uygulamasını açınız.
 2. Sıkıştırılmış dosyadan çıkardığınız "Wisdom_of_Luna" isimli proje klasörünü Android Studio ile açınız.
 3. Gradle senkronizasyonunun tamamlanmasını bekleyiniz.
-4. Senkronizasyon işlemi otomatik olarak başlamazsa, Android Studio üzerinde bulunan **"Sync Project with Gradle Files"** seçeneğini kullanınız.
-5. İnternet hızınıza bağlı olarak Gradle dosyalarının indirilmesi ve senkronizasyon işlemi 1-10 dakika arasında sürebilir.
-6. Senkronizasyon tamamlandıktan sonra projeyi Build/Run ederek çalıştırabilirsiniz.
+4. Proje ilk açılışta Android SDK yolu ile ilgili bir uyarı verirse "OK" seçeneğine basarak Android Studio'nun SDK yapılandırmasını tamamlayabilirsiniz.
+5. Senkronizasyon işlemi otomatik olarak başlamazsa, Android Studio üzerinde bulunan **"Sync Project with Gradle Files"** seçeneğini kullanınız.
+6. İnternet hızınıza bağlı olarak Gradle dosyalarının indirilmesi ve senkronizasyon işlemi 1-10 dakika arasında sürebilir.
+7. Senkronizasyon tamamlandıktan sonra projeyi Build/Run ederek çalıştırabilirsiniz.
 
 # FİZİKSEL ANDROID CİHAZ ÜZERİNDE ÇALIŞTIRMA
 
